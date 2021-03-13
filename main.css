@@ -1,5 +1,5 @@
 body {
-    background: url('/static/firewatch.jpg'); 
+    background: url('./firewatch.jpg'); 
     height: 100vh;
 }
 div.main { 
