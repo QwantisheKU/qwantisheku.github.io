@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Oleg Veselov - Data Scientist</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    
+    <style>
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            border: none;
+            background-color: rgb(161, 144, 72);
+            color: #170B62;
+            
+        }
+        .nav-tabs {
+            border: none;
+            
+        }
+        a {
+            color: black;
+        }
+        .nav-tabs > li{
+            margin-top: 30px;
+        }
+        .nav-tabs > ul {
+            justify-content: space-between;
+        }
+        h2, h4, h5 {
+            font-weight: bold;
+        }
+        .label {
+            display: inline;
+            padding: .25em .6em;
+            font-size: 75%;
+            font-weight: 500;
+            line-height: 1;
+            color: #ffffff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25em;
+        }
+        .label-info {
+            background-color: #5bc0de;
+        }
+        /* h4, h5, p {
+            float: left;
+        } */
+        .work li {
+            border-bottom: 1px solid #f1f1f1;
+            margin-bottom: 2em;
+        }
+        .work li span {
+            float: right;
+        }
+    </style>
+        <div class="container">
+            <div class="row m-auto" style="max-width: 70%;">
+            <ul class="nav nav-tabs">
+                <!-- Первая вкладка (активная) -->
+                <li class="nav-item" style="border-top-left-radius: 15px; background-image: url('about.svg'); background-repeat:  no-repeat;background-position: center; background-size: 20px;">
+                  <a class="nav-link active" data-toggle="tab" href="about" style="border-top-left-radius: 15px;">About</a>
+                </li>
+                <!-- Вторая вкладка -->
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="resume" style="border-top-left-radius: 15px;">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="photos" style="border-top-left-radius: 15px;">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="contacts" style="border-top-left-radius: 15px;">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+                <div class="col-7 main rounded-bottom" style="border-top-left-radius: 10px; display: block;">
+                    <br>
+                    <div style="margin-left: 20px;">
+                        <h2>Work Experience</h2>
+                        <h4><u>Personal projects:</u></h4>
+                        <br>
+                    <ul class="work" style="list-style: none; margin: 0; padding: 0; float:left;">
+                        <li style="float: left;">
+                            <h5 style="float: left;">Simpsons classifier and prices prediction</h5>
+                            <span class="label label-info" style="float: right;">smth</span>
+                            <p>University project with Keras and sklearn models</p>
+                        </li>
+                        <li style="float: left;">
+                            <h5 style="float: left;">Family faces classifier</h5>
+                            <span class="label label-info">smth</span>
+                            <br>
+                            <p style="float: left;">Determines whether you belong to my family or not</p>
+                        </li>
+                        
+                    </ul>
+                    <h2 style="float:none;">Education</h2>
+                    <br>
+                    <ul class="work" style="list-style: none; margin: 0; padding: 0;">
+                        
+                        <li style="float: left;">
+                            <h5>RTU MIREA - Russian Technological University</h5>
+                            <p>Bachelors degree, Programming Engineering</p>
+                        </li>
+                    </ul>
+
+                        <br>
+                    </div>
+                </div>
+                <div class="col-5 main rounded-bottom" style="border-top-right-radius: 10px">
+                
+                </div>
+        </div>
+
+            </div>
+        </div>
+    </body>
+</html>
