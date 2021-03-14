@@ -1,6 +1,9 @@
 body {
     background: url('./firewatch.jpg'); 
-    height: 100vh;
+    background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 div.main { 
     background: rgb(161, 144, 72);
@@ -23,8 +26,6 @@ div.button {
 }
 .nav-tabs > li{
     margin-top: 20px;
-    margin-left:30px;
-    /* margin-right:30px; */
 }
 .nav-tabs {
     border: none;
@@ -40,3 +41,47 @@ img {
 hr {
     color: #170B62;
 }
+@media only screen and (min-width : 992px) {
+    #borders {
+        border-top-right-radius: 10px;
+    }
+    #left_angle {
+        border-bottom-left-radius: 10px;
+    }
+    .tigers_rt3 {
+        border-top-right-radius: 10px;
+    }
+    .tigers_lb2 {
+        border-bottom-left-radius: 10px;
+    }
+    .tigers_rb2 {
+        border-bottom-right-radius: 10px;
+    }
+}
+@media only screen and (max-width : 992px) {
+    #borders2 {
+        border-top-right-radius: 10px;
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .tigers_rt {
+        border-top-right-radius: 10px;
+    }
+    .tigers_lb {
+        border-bottom-left-radius: 10px;
+    }
+    .tigers_rb {
+        border-bottom-right-radius: 10px;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .tigers_rt2 {
+        border-top-right-radius: 10px;
+    }
+    .tigers_l {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+
