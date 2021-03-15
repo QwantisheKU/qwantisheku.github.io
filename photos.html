@@ -3,6 +3,7 @@
         <title>Oleg Veselov - Data Scientist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     
@@ -31,25 +32,31 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
-        
+        .nav-tabs li {
+            margin-left: 10px;
+        }
+        .far, .fas {
+            font-size: 20px;
+            padding-right: 4px;
+        }
     </style>
     <body>
         <div class="container">
-            <div class="row m-auto" style="max-width: 70%;">
-            <ul class="nav nav-tabs">
+        <div class="row " style="display: flex; margin:auto;" >
+            <ul class="nav nav-tabs nav-justified" >
                 <!-- Первая вкладка (активная) -->
                 <li class="nav-item" style="border-top-left-radius: 15px; background-image: url('about.svg'); background-repeat:  no-repeat;background-position: center; background-size: 20px;">
-                  <a class="nav-link active" data-toggle="tab" href="about" style="border-top-left-radius: 15px;">About</a>
+                  <a class="nav-link active" data-toggle="tab" href="about" style="border-top-left-radius: 15px;"><i class="fas fa-user"></i>About</a>
                 </li>
                 <!-- Вторая вкладка -->
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="resume" style="border-top-left-radius: 15px;">Resume</a>
+                  <a class="nav-link active" data-toggle="tab" href="resume" style="border-top-left-radius: 15px;"><i class="fas fa-file"></i>Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="photos" style="border-top-left-radius: 15px;">Photos</a>
+                    <a class="nav-link act" data-toggle="tab" href="photos" style="border-top-left-radius: 15px;"><i class="fas fa-images"></i>Photos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="contacts" style="border-top-left-radius: 15px;">Contacts</a>
+                    <a class="nav-link active" data-toggle="tab" href="contacts" style="border-top-left-radius: 15px;"><i class="fas fa-address-book"></i>Contacts</a>
                 </li>
               </ul>
             </div>
