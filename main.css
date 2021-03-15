@@ -13,10 +13,7 @@ div.button {
     height: 30px;
     background: rgb(161, 144, 72);
 }
-.left {
-    margin-left: 200px;
-    text-align: center;
-}
+
 .nav-link {
     background-color: rgb(161, 144, 72);
 }
@@ -31,11 +28,9 @@ div.button {
     border: none;
 }
 .nav {
-    justify-content: space-between;
     min-width: 70%;
 }
 img {
-    margin-left: 18px;
     border-radius: 10px;
 }
 hr {
@@ -102,6 +97,8 @@ a.act {
     .mobhide {
       display: none;
     }
+    .fields {
+        max-width: 90%;
+    }
   }
-
 
