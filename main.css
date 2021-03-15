@@ -6,20 +6,21 @@ body {
     background-size: cover;
 }
 div.main { 
-    background: rgb(161, 144, 72);
+    background: #bd9945;
 }
 div.button {
     margin-top: 90px;
     height: 30px;
-    background: rgb(161, 144, 72);
-}
-
-.nav-link {
-    background-color: rgb(161, 144, 72);
+    background: #bd9945;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border: none;
-    background-color: rgb(161, 144, 72);
+    background-color: #bd9945;
+    color: #071471;
+    
+}
+.nav-link {
+    background-color: #bd9945;
 }
 .nav-tabs > li{
     margin-top: 20px;
@@ -34,10 +35,10 @@ img {
     border-radius: 10px;
 }
 hr {
-    color: #170B62;
+    color: #071471;
 }
 a {
-    color: #170B62;
+    color: #071471;
 }
 a:hover {
     color: red;
@@ -45,6 +46,7 @@ a:hover {
 a.act {
     color: black;
 }
+
 @media only screen and (min-width : 992px) {
     #borders {
         border-top-right-radius: 10px;
