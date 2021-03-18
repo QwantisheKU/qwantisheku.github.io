@@ -45,19 +45,26 @@
             white-space: nowrap;
             vertical-align: baseline;
             border-radius: .25em;
+            height: 100%;
+            display: flex;
         }
         .label-info {
             background-color: #5bc0de;
         }
-        /* h4, h5, p {
-            float: left;
-        } */
+        .label-process {
+           
+            background-color: #eaa20d;
+        }
+        .label-completed {
+            background-color: #4c9818;
+        }
         .work li {
             border-bottom: 1px solid #f1f1f1;
             margin-bottom: 2em;
-        }
-        .work li span {
-            float: right;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
         }
         .nav-tabs li {
             margin-left: 10px;
@@ -65,6 +72,9 @@
         .far, .fas {
             font-size: 20px;
             padding-right: 4px;
+        }
+        p {
+            width: 100%;
         }
     </style>
         <div class="container fields">
@@ -94,27 +104,26 @@
                         <h4><u>Personal projects:</u></h4>
                         <br>
                     <ul class="work" style="list-style: none; margin: 0; padding: 0; float:left;">
-                        <li style="float: left;">
-                            <h5 style="float: left;">Simpsons classifier and prices prediction</h5>
-                            <span class="label label-info">2020</span>
+                        <li>
+                            <h5>Simpsons classifier and prices prediction</h5>
+                            <span class="label label-completed">2020</span>
                             <p>University project with Keras and sklearn models</p>
                         </li>
-                        <li style="float: left;">
-                            <h5 style="float: left;">Family faces classifier</h5>
-                            <span class="label label-info" style="float: right;">2020</span>
-                            <br>
-                            <p style="float: left;">Determines whether you belong to my family or not</p>
+                        <li>
+                            <h5>Family faces classifier</h5>
+                            <span class="label label-completed">2020</span>
+                    
+                            <p>Determines whether you belong to my family or not</p>
                         </li>
                         
                     </ul>
-                    <h2 style="float:none;">Education</h2>
+                    <h2>Education</h2>
                     <br>
                     <ul class="work" style="list-style: none; margin: 0; padding: 0;">
                         
-                        <li style="float: left;">
+                        <li>
                             <h5>RTU MIREA - Russian Technological University</h5>
-                            <span class="label label-info" >2019-2023</span>
-                            <br>
+                            <span class="label label-process" >2019-2023</span>
                             <p>Bachelors degree, Programming Engineering</p>
                         </li>
                     </ul>
